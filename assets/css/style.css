@@ -1,0 +1,102 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#resultado {
+    color: white;
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(../img/comic1.jpg);
+    background-size: cover;
+    max-height: 745px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 10px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-family: "honk", sans-serif;
+}
+
+#texto-juego {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(4, 21, 103);
+    font-weight: bolder;
+    font-family: "reem kufi fun", sans-serif;
+}
+
+/*---------- BOTONES ----------*/
+
+.botones {
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+}
+
+.boton {
+
+    appearance: none;
+    background-color: #000000;
+    border: 5px solid #1A1A1A;
+    border-radius: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.boton:disabled {
+    pointer-events: none;
+}
+
+.boton:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.boton:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+.botones__img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+
+/*------------ IMAGEN FINAL ------------*/
+
+
+#resultado-imagen {
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    border: 15px black solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
